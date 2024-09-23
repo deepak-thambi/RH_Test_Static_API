@@ -1,1 +1,36 @@
-{"items":[{"name":"AVERAGE RATING","value":5.6,"value_format":null,"value_label":null,"indicator":"down"},{"name":"CANCELLED ORDERS","value":35,"value_format":null,"value_label":null,"indicator":"important"},{"name":"COMPLETED ORDERS","value":1892,"value_format":null,"value_label":null,"indicator":"up"},{"name":"TOTAL SALES","value":15520.64,"value_format":null,"value_label":null,"indicator":"up"}],"hasMore":false,"limit":25,"offset":0,"count":4,"links":[{"rel":"self","href":"https://rgbu.gbua.us-ashburn-1.oci.oraclecloud.com/a0z7vfujjsq9man43cuu/ords/raseds/rh_order_summary_view/"},{"rel":"edit","href":"https://rgbu.gbua.us-ashburn-1.oci.oraclecloud.com/a0z7vfujjsq9man43cuu/ords/raseds/rh_order_summary_view/"},{"rel":"describedby","href":"https://rgbu.gbua.us-ashburn-1.oci.oraclecloud.com/a0z7vfujjsq9man43cuu/ords/raseds/metadata-catalog/rh_order_summary_view/"},{"rel":"first","href":"https://rgbu.gbua.us-ashburn-1.oci.oraclecloud.com/a0z7vfujjsq9man43cuu/ords/raseds/rh_order_summary_view/"}]}
+{
+ "items": [{
+ "name": "Metric 1",
+ "value": 10000,
+ "valueFormat": "S"
+ }, {
+ "name": "Example",
+ "value": 0.5,
+ "valueFormat": "PC"
+ }],
+ "chart": {
+ "type": "bar",
+ "items": [{
+ "name": "JAN",
+ "series": "2021",
+ "value": 4300000
+ }, {
+ "name": "FEB",
+ "series": "2021",
+ "value": 2230000
+ }, {
+ "name": "JAN",
+ "series": "2022",
+ "value": 3500000
+ }, {
+ "name": "FEB",
+ "series": "2022",
+ "value": 4500000
+ }
+ ],
+ "renderTooltips": true,
+ "valueFormat": "S",
+ "renderXAxisLabels": true,
+ "renderYAxisLabels": true
+ }
+}
