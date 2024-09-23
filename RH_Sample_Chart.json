@@ -1,0 +1,36 @@
+{
+ "items": [{
+ "name": "Metric 1",
+ "value": 10000,
+ "valueFormat": "S"
+ }, {
+ "name": "Example",
+ "value": 0.5,
+ "valueFormat": "PC"
+ }],
+ "chart": {
+ "type": "bar",
+ "items": [{
+ "name": "JAN",
+ "series": "2021",
+ "value": 4300000
+ }, {
+ "name": "FEB",
+ "series": "2021",
+ "value": 2230000
+ }, {
+ "name": "JAN",
+ "series": "2022",
+ "value": 3500000
+ }, {
+ "name": "FEB",
+ "series": "2022",
+ "value": 4500000
+ }
+ ],
+ "renderTooltips": true,
+ "valueFormat": "S",
+ "renderXAxisLabels": true,
+ "renderYAxisLabels": true
+ }
+}
