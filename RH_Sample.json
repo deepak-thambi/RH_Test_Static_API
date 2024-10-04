@@ -1,36 +1,33 @@
 {
  "items": [{
  "name": "Metric 1",
- "value": 10000,
- "valueFormat": "S"
+ "value": 150,
+ "valueFormat": "N"
+ "indicator": "up"
  }, {
- "name": "Example",
- "value": 0.5,
+ "name": "Metric 2",
+ "value": 20,
  "valueFormat": "PC"
- }],
- "chart": {
- "type": "bar",
- "items": [{
- "name": "JAN",
- "series": "2021",
- "value": 4300000
+ "indicator": "down"
  }, {
- "name": "FEB",
- "series": "2021",
- "value": 2230000
+ "name": "Metric 3",
+ "value": 400,
+ "valueFormat": "PC"
+ "indicator": "normal"
  }, {
- "name": "JAN",
- "series": "2022",
- "value": 3500000
+ "name": "Metric 4",
+ "value": 55,
+ "valueFormat": "N"
+ "indicator": "info"
  }, {
- "name": "FEB",
- "series": "2022",
- "value": 4500000
- }
- ],
- "renderTooltips": true,
- "valueFormat": "S",
- "renderXAxisLabels": true,
- "renderYAxisLabels": true
- }
+ "name": "Metric 5",
+ "value": 90,
+ "valueFormat": "PC"
+ "indicator": "important"
+ } ,{
+ "name": "Metric 6",
+ "value": 120,
+ "valueFormat": "PC"
+ "indicator": "critical"
+ }]
 }
